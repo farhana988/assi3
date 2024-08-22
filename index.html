@@ -45,12 +45,11 @@
     </script>
   </head>
   <body class="font-Manrope">
-    <header class="container mx-auto my-8 
-    bg-gradient-to-r from-[#FFFFFF] from-100%  to-[#FFFFFF] to-0% ">
+    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF]">
       <!-- navbar -->
-        <nav class="mb-5">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
+        <nav class="mb-5 container mx-auto py-8">
+            <div class="navbar">
+                <div class="navbar-start ml-4 lg:ml-0">
                     <div class="dropdown hidden">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg
@@ -80,7 +79,7 @@
                     <a class="btn btn-ghost text-4xl font-extrabold text-[#212121]">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 text-sm text-light font-[400]">
+                <ul class="menu menu-horizontal px-1 text-sm text-light font-normal">
                     <li class="hover:text-hover hover:font-extrabold duration-300 easy-in-out">
                         <a>Home</a>
                     </li>
@@ -98,10 +97,10 @@
                     </li>
                 </ul>
                 </div>
-                <div class="navbar-end  space-x-5">
+                <div class="navbar-end ml-12 space-x-5 ">
                     
                     <!-- search icon -->
-                    <div class=" p-2 bg-[#f5efef] rounded-full">
+                    <div class="p-3 lg:bg-[#ffffff] rounded-full">
                       <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -119,7 +118,7 @@
                     </div>
 
                     <!-- cart icon -->
-                    <div class=" p-2 bg-[#f5f2f2] rounded-full ">
+                    <div class="p-3 lg:bg-[#ffffff] rounded-full ">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -141,7 +140,7 @@
                         ></i>
                     </a>
 
-                    <button class="text-light md:hidden lg:hidden">
+                    <button class="px-4 py-3 bg-[#ffffff] rounded-full text-light  lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -160,16 +159,16 @@
 
         <!-- banner-->
 
-        <section class="border-blue-400 border-2 flex flex-col text-center items-center">
+        <section class="container mx-auto  flex flex-col text-center items-center">
           <div>
-            <img class="border-blue-400 border-2" src="assets/banner.png" alt="">
+            <img class="px-16 lg:px-0" src="assets/banner.png" alt="">
           </div>
-          <div class="border-blue-400 border-2 ">
-            <h1 class=" py-6 font-extrabold text-4xl lg:text-7xl text-htag">
-              A barn house of this design has a <br>
+          <div>
+            <h1 class="px-4 lg:px-0 py-6 font-extrabold text-3xl lg:text-7xl text-htag">
+              A barn house of this design has a 
               striking appearance
             </h1>
-            <p class="border-blue-400 border-2 text-ptag font-normal px-4 lg:px-16">
+            <p class="text-ptag text-sm font-normal px-4 lg:px-36">
               The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
                 accents, and large windows that flood the space with natural light
             </p>
@@ -185,7 +184,92 @@
        
     </header>
 
-    <footer></footer>
+
+    <main>
+      <!-- about us -->
+       <section class="relative border-2 border-blue-400 bg-[#F4F4F4] my-52 py-24">
+        <!-- vector image -->
+        <div class=" border-2 border-blue-400 hidden lg:absolute left-12 top-12">
+          <img src="assets/Vector.png" alt="">
+        </div>
+        <!-- main container from daisy -->
+        <div class="container mx-auto border-2 border-blue-400">
+          <div class="hero">
+            <div class="border-2 border-red-400 gap-5 hero-content flex-col-reverse lg:flex-row-reverse">
+              <img
+                src="assets/Rectangle.png"
+                class="max-w-sm lg:max-w-xl md:max-w-screen-2xl rounded-lg shadow-2xl" />
+              <div class="border-2 border-blue-400 text-center lg:text-left">
+
+
+
+                <button class="text-ptag btn bg-[#FFFFFF] text-xl font-semibold rounded-3xl ">
+                  <i class="fa-solid fa-arrow-right text-ptag"
+                  ></i>
+                  
+                  About Us
+                  
+                </button>
+                <h1 class=" text-3xl lg:text-5xl font-extrabold text-htag">We design thoughtful, 
+                  liveable spaces</h1>
+                <p class=" py-6 text-ptag text-lg">
+                  The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents
+                </p>
+                <!-- 2 container -->
+                <div class="flex flex-col lg:flex-col md:flex-row gap-10 ">
+                  <!-- Commercial-->
+                    <div class="border-2 border-blue-400 py-6 px-3 flex gap-5 rounded-3xl 
+                     bg-[#FFFFFF] text-left">
+                        <img class="w-32 p-3" src="assets/commercial.png" alt="">
+                        <div class="space-y-2">
+                          <h3 class="font-extrabold text-ptag text-lg lg:text-2xl">
+                            Commercial
+                          </h3>
+                          <p class="pr-0 lg:pr-20 text-[#737373] text-sm lg:text-lg">
+                            The barn house captivates with its blend 
+                            of rustic charm and modern.
+                          </p>
+                        </div>
+                    </div>
+                  <!-- Residential -->
+                    <div class="border-2 border-red-500  py-6 px-3  flex gap-5 rounded-3xl
+                     bg-[#FFFFFF] text-left">
+                        <img class=" w-32 p-3" src="assets/residential.png" alt="">
+                        <div class="space-y-2">
+                          <h3 class="font-extrabold text-ptag text-lg lg:text-2xl">
+                            Residential
+                          </h3>
+                          <p class="pr-0 lg:pr-20 text-[#737373] text-sm lg:text-lg">
+                            The barn house captivates with its blend 
+                            of rustic charm and modern.
+                          </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+
+    </main>
+
+    <footer>
+      
+
+
+
+
+
+
+
+
+
+
+    
+    </footer>
 
 
     
